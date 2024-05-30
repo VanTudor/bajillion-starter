@@ -7,11 +7,11 @@ function create_venv () {
   fi
 
   echo "Creating virtualenv"
-  python3 -m pip install --user virtualenv==20.24.6
+  python3 -m pip install --user virtualenv==20.24.6 --break-system-packages
 
   NILLION_VENV=".venv"
   mkdir -p "$NILLION_VENV"
-  python3 -m virtualenv -p python3 "$NILLION_VENV"
+  python3 -m virtualenv -p python3 "$NILLION_VENV" 
   source "$NILLION_VENV/bin/activate"
   python3 -m pip install -r requirements.txt
 
