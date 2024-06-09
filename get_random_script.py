@@ -29,9 +29,4 @@ print(random.choice([
   'subtraction_simple_neg.py',
   'tiny_secret_addition.py',
   'tiny_secret_addition_complete.py',
-  # 'examples_and_tutorials/core_concept_store_and_retrieve_secrets/store_and_retrieve_blob.py',
-  # 'examples_and_tutorials/core_concept_store_and_retrieve_secrets/store_and_retrieve_integer.py',
-  # 'examples_and_tutorials/core_concept_multi_party_compute/01_store_secret_party1.py',
-  # 'examples_and_tutorials/core_concept_multi_party_compute/02_store_secret_party_n.py',
-  # 'examples_and_tutorials/core_concept_multi_party_compute/03_multi_party_compute.py'
   ]))
